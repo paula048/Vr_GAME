@@ -33,10 +33,6 @@ public class VacuumColider : MonoBehaviour
             Debug.Log("Collision with slime detected!");
             Destroy(collision.gameObject);
             rend.material.color = Color.cyan;
-
-
-
-
         }
     }
 

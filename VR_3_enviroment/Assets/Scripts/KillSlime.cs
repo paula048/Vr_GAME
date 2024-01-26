@@ -72,6 +72,7 @@ public class KillSlime : MonoBehaviour
 
     public void Break()         // here means death funtion
     {
+        Debug.Log("Pistol touch Slime! ");
         isDeath = true;
         slime.GetComponent<Animator>().Play("DeathState");
         TaskOnClick();

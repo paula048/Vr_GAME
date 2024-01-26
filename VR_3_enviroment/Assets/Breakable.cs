@@ -18,6 +18,7 @@ public class Breakable : MonoBehaviour
 
     public void Break()
     {
+        Debug.Log("Pistol touch Stone! ");
         timer += Time.deltaTime;
 
         if(timer > timeToBreak)
